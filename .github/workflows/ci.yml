@@ -13,12 +13,10 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '16'
+        node-version: '14'
 
     - name: Install dependencies
       run: npm install
-    - name: Give executable permission to mocha
-      run: chmod +x node_modules/.bin/mocha
 
     - name: Run tests
       run: npm test
