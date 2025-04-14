@@ -1,4 +1,4 @@
-import chai from 'chai';
+import { expect } chai from 'chai';
 const add = require('../app');
 const { expect } = require('chai');
 
